@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" href="../img/logo-final.png">
+
+    <title>My Profile</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="navbar">
+            <div class="logo">
+                <a href="/Public/index.html"><img src="/img/logo-final.png" alt="logo" class="logo-main"></a>
+                <a href="/Public/index.html" style="text-decoration: none;"> <span id="SpendRight"> SpendRight</span>
+                </a>
+            </div>
+            <div class="navbar-options ">
+                <img src="../img/profilepic.webp" alt="profilepic" class="profilepic">
+                <a href="#"><button class="button-1" role="button">Logout</button></a>
+            </div>
+        </div>
+
+        <div class="container-main">
+            <div class="profile-layout">
+                <div class="profile-details">
+                    <img src="../img/profilepic.webp" alt="profilepic" class="profile-pic">
+                    <p id="username">UserName</p>
+                    Email: <p id="email">Email@email.com</p>
+
+                    <p>Edit Details <a href="#">Edit <i class="fa-solid fa-pen-to-square"></i></a></p>
+
+                </div>
+            </div>
+
+            <div class="total-debt">
+                <div class="total-menu">
+                    <p class="heading-menu">Total debt</p>
+                    <p id="amount-display">₹100</p>
+                    <input type="number" name="amount" id="amount" class="text-menu"
+                        placeholder="Enter the amount to settle">
+                    <input type="search" name="people" id="people" class="text-menu"
+                        placeholder="To: Enter email to search">
+
+                    <select name="category" id="category" class="text-menu">
+                        <option value="none" selected disabled hidden>Choose Category</option>
+                        <option value="education">Education</option>
+                        <option value="food">Fod</option>
+                        <option value="travel">Travel</option>
+                        <option value="groceries">Groceries </option>
+                    </select>
+                    <div class="pay-options">
+                        <button class="friends-group-btn clicked" data-option="1">Friend</button>
+                        <button class="friends-group-btn clicked" data-option="2">Group</button>
+                    </div>
+                    <button type="button" class="btn btn-success text-menu">Settle </button>
+                </div>
+            </div>
+            <div class="owed-topspent">
+                <div class="owed">
+                    <center>
+                        <h4>Total owed</h4>
+                    </center>
+                    <p class="display-owed" id="display-owed"> ₹1000</p>
+                    <center> <textarea name="comment" id="comment-owed" class="comments-owed" cols="35" rows="10"
+                            placeholder="Add comments"></textarea>
+                        <center></center>
+                </div>
+                <div class="topspent">
+                    <div class="topspent-display">
+                        <p class="heading-menu">Top Expenses</p>
+                        <div class="transactions-details">
+                    <span id="date">20/12/2023</span>
+                    <span id="time">02:33 A.M</span>
+                    <span id="Ttype">Spent</span>
+                    <span id="amount">₹200</span>
+                </div>
+                <div class="transactions-details">
+                    <span id="date">20/12/2023</span>
+                    <span id="time">02:33 A.M</span>
+                    <span id="Ttype">Spent</span>
+                    <span id="amount">₹200</span>
+                </div>
+                <div class="transactions-details">
+                    <span id="date">20/12/2023</span>
+                    <span id="time">02:33 A.M</span>
+                    <span id="Ttype">Spent</span>
+                    <span id="amount">₹200</span>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="past-transaction">
+                <p class="heading-menu">Transaction history</p>
+                <div class="transactions-details">
+                    <span id="date">20/12/2023</span>
+                    <span id="time">02:33 A.M</span>
+                    <span id="Ttype">Spent</span>
+                    <span id="amount">₹200</span>
+                </div>
+                <div class="transactions-details">
+                    <span id="date">20/12/2023</span>
+                    <span id="time">02:33 A.M</span>
+                    <span id="Ttype">Spent</span>
+                    <span id="amount">₹200</span>
+                </div>
+                <div class="transactions-details">
+                    <span id="date">20/12/2023</span>
+                    <span id="time">02:33 A.M</span>
+                    <span id="Ttype">Spent</span>
+                    <span id="amount">₹200</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script>
+
+        const buttons = document.querySelectorAll('.friends-group-btn');
+        function clearSelection() {
+            buttons.forEach(btn => btn.classList.remove('clicked'));
+        }
+
+        // Add click event listener to each button
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove 'clicked' class from all buttons
+                buttons.forEach(btn => btn.classList.remove('clicked'));
+
+                // Add 'clicked' class to the clicked button
+                button.classList.add('clicked');
+            });
+        });
+        window.addEventListener('load', clearSelection);
+    </script>
+</body>
+
+</html>
