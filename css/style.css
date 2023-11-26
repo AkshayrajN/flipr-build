@@ -3,66 +3,67 @@
     padding: 0;
 }
 
-.navbar{
-    /* border: 2px solid red; */
-    display: flex;
-}
-#SpendRight{
-    text-align: end;
-    position: relative;
-    top: 0.7rem;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size:1.7rem;
-}
-body{
-    background: rgb(52,148,230);
-background: linear-gradient(90deg, rgba(52,148,230,1) 21%, rgba(236,110,173,1) 100%);
-}   
-
-.logo-main{
-    height:5rem;
-    width:5rem;
-}
-
-.button-1 {
-    background-color: white;
-    border-radius: 2.5rem;
-    border-style: none;
-    box-sizing: border-box;
-    color: black;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    height: 2.5rem;
-    width:9.5rem;
-    line-height: 20px;
-    list-style: none;
-    margin: 0;
-    outline: none;
-    margin: 1rem;
-    padding: 10px 16px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    transition: color 100ms;
-    vertical-align: baseline;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+  .navbar{
+      /* border: 2px solid red; */
+      display: flex;
   }
-  
-  .button-1:hover,
-  .button-1:focus {
-    background-color: #ea6ead;
-    opacity: 50;
+  #SpendRight{
+      text-align: end;
+      position: relative;
+      top: 0.7rem;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size:1.7rem;
+  }
+  body{
+      background: rgb(52,148,230);
+  background: linear-gradient(90deg, rgba(52,148,230,1) 21%, rgba(236,110,173,1) 100%);
+  }   
+
+  .logo-main{
+      margin-left: 10px;
+      height:5rem;
+      width:5rem;
   }
 
-  .container-main{
-    margin-top: 3rem;
+  .button-1 {
+      background-color: white;
+      border-radius: 2.5rem;
+      border-style: none;
+      box-sizing: border-box;
+      color: black;
+      cursor: pointer;
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      height: 2.5rem;
+      width:9.5rem;
+      line-height: 20px;
+      list-style: none;
+      margin: 0;
+      outline: none;
+      margin: 1rem;
+      padding: 10px 16px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: color 100ms;
+      vertical-align: baseline;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .button-1:hover,
+    .button-1:focus {
+      background-color: #ea6ead;
+      opacity: 50;
+    }
+
+    .container-main{
+      margin-top: 3rem;
     /* border: 3px solid green; */
    
     border-radius: 25px;
