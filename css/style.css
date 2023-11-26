@@ -98,5 +98,35 @@ background: linear-gradient(90deg, rgba(52,148,230,1) 21%, rgba(236,110,173,1) 1
     position: absolute;
     top: 27rem;
 }
+.features{
+  display: flex;
+}
+.app-features{
+  margin: 3px;
+  color: white;
+  
+}
+.app-features h4{
+  /* margin: 3px; */
+  color: black;
+  
+}
+.app-features p{
+  /* margin: 3px; */
+  color: rgba(255, 255, 255, 0.973);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  
+}
+.features-headlines{
+  display: flex;
 
-
+}
+.headline-feature{
+  display: flex;
+  justify-content: center;
+}
+.feature-icon{
+  margin-right: 3px;
+  color: black;
+}
